@@ -229,7 +229,7 @@ export const DATA = {
         },
       ],
       image: "/probelm1.png",
-      video: "/Problem1.gif",
+      video: "",
     },
     {
       title: "llm.report",
