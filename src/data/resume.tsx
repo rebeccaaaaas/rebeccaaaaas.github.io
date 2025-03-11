@@ -205,12 +205,12 @@ export const DATA = {
         "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Content Processing and Translation Systems",
+      href: "https://github.com/rebeccaaaaas/Content_Processing_and_Translation_Systems",
+      dates: "Feb 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "A multi-modal approach to language and content analysis with three integrated Python-based applications: \n1. Multi-Platform Translation Service \n2. YouTube Video Content Summarization \n3. PDF Document Question-Answering System",
       technologies: [
         "Next.js",
         "Typescript",
@@ -223,18 +223,13 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/rebeccaaaaas/Content_Processing_and_Translation_Systems",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "/Problem1.gif",
     },
     {
       title: "llm.report",
