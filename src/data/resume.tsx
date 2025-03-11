@@ -253,8 +253,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/translation.gif",
-      video: "",
+      image: "",
+      video: "/Problem1.gif",
     },
     {
       title: "Automatic Chat",
