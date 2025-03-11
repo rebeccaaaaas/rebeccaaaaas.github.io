@@ -195,12 +195,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
+          type: "Source",
           href: "https://github.com/rebeccaaaaas/Matching_OpenAI_Pinecone",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/matching.png",
       video:
         "",
     },
