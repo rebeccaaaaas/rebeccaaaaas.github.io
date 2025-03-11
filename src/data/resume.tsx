@@ -291,7 +291,7 @@ export const DATA = {
       dates: "Feb 2024 - Jun 2024",
       active: true,
       description:
-        "A deep learning-based system that generates cardiac magnetic resonance (CMR) images from electrocardiogram (ECG) data using generative adversarial networks. The system predicts cardiac diseases and assesses heart health metrics through advanced neural networks including Vision Transformer and Swin Transformer. Built on PyTorch with UK Biobank data, this project aims to make comprehensive cardiac assessment more accessible by requiring only ECG data while providing CMR-level diagnostic capabilities.",
+        "A deep learning system that generates cardiac MRI images from ECG data and predicts heart diseases. Using GANs and transformer models, this project makes comprehensive cardiac assessment more accessible by providing MRI-level diagnostics from simple ECG inputs.",
       technologies: [
         "Python",
         "PyTorch",
