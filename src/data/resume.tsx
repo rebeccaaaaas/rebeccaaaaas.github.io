@@ -210,16 +210,16 @@ export const DATA = {
       dates: "Feb 2025",
       active: true,
       description:
-        "A multi-modal approach to language and content analysis with three integrated Python-based applications: \n1. Multi-Platform Translation Service \n2. YouTube Video Content Summarization \n3. PDF Document Question-Answering System",
+        "A multi-modal approach to language and content analysis with three integrated Python-based applications: (Multi-Platform Translation Service, YouTube Video Content Summarization, PDF Document Question-Answering System)",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "DeepL API",
+        "LangChain",
+        "FAISS",
+        "PyPDF2",
+        "YouTube API/Loader",
       ],
       links: [
         {
@@ -228,7 +228,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/probelm1.png",
       video: "/Problem1.gif",
     },
     {
