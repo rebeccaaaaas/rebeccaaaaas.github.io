@@ -202,6 +202,35 @@ export const DATA = {
       ],
       image: "/matching.png",
       video:
+      "",
+    },
+    {
+      title: "ommodity Market Risk Analysis",
+      href: "https://github.com/rebeccaaaaas/Commodity_Market_Risk_Analysis",
+      dates: "Jan 2025 - March 2025",
+      active: true,
+      description:
+        "Developed a Commodity Market Risk Analysis framework using deep learning to predict prices, detect anomalies, and assess supply chain risks for crude oil, gold, and natural gas markets (2020-2024). Achieved 97.3% prediction accuracy with commodity-specific model selection.",
+      technologies: [
+        "PyTorch",
+        "LSTM Networks",
+        "Transformer Models",
+        "Autoencoder",
+        "Random Forest",
+        "Statistical Modeling",
+        "Time Series Analysis",
+        "Pandas",
+        "Anomaly Detection",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rebeccaaaaas/Commodity_Market_Risk_Analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/commodity.png",
+      video:
         "",
     },
     {
@@ -241,10 +270,10 @@ export const DATA = {
       technologies: [
         "Python",
         "Streamlit",
-        "OpenAI API",
-        "DeepL API",
         "Selenium",
         "BeautifulSoup",
+        "OpenAI API",
+        "DeepL API",
       ],
       links: [
         {
@@ -254,36 +283,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/Problem1.gif",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "/enhance.png",
     },
   ],
   hackathons: [
