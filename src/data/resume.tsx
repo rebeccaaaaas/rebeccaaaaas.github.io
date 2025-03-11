@@ -291,7 +291,7 @@ export const DATA = {
       dates: "Feb 2024 - Jun 2024",
       active: true,
       description:
-        "This project presents a novel heart health assessment system integrating electrocardiogram (ECG) data with cardiac magnetic resonance (CMR) imaging. Using generative adversarial networks (GANs), we transform readily available ECG signals into corresponding CMR images, making comprehensive cardiac assessment more accessible. Our system employs advanced deep learning models (CNN, Vision Transformer, Swin Transformer) to predict four major cardiac diseases (myocardial infarction, cardiomyopathy, atrial fibrillation, heart failure) and estimate 82 cardiac phenotypic indicators. Based on the UK Biobank dataset with over 33,000 samples, our research demonstrates that Swin Transformer outperforms other architectures in disease prediction from CMR data. This work addresses the accessibility gap in cardiac imaging by enabling detailed cardiovascular assessment from simple ECG tests.",
+        "A deep learning-based system that generates cardiac magnetic resonance (CMR) images from electrocardiogram (ECG) data using generative adversarial networks. The system predicts cardiac diseases and assesses heart health metrics through advanced neural networks including Vision Transformer and Swin Transformer. Built on PyTorch with UK Biobank data, this project aims to make comprehensive cardiac assessment more accessible by requiring only ECG data while providing CMR-level diagnostic capabilities.",
       technologies: [
         "Python",
         "PyTorch",
