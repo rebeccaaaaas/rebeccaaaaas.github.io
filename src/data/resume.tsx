@@ -205,7 +205,7 @@ export const DATA = {
       "",
     },
     {
-      title: "ommodity Market Risk Analysis",
+      title: "Commodity Market Risk Analysis",
       href: "https://github.com/rebeccaaaaas/Commodity_Market_Risk_Analysis",
       dates: "Jan 2025 - March 2025",
       active: true,
@@ -283,6 +283,56 @@ export const DATA = {
         },
       ],
       image: "/enhance.png",
+      video: "",
+    },
+    {
+      title: "A Heart Health Assessment System Based on Electrocardiogram and CMR Imaging",
+      href: "https://github.com/rebeccaaaaas/ECG-CMR",
+      dates: "Feb 2024 - Jun 2024",
+      active: true,
+      description:
+        "This project presents a novel heart health assessment system integrating electrocardiogram (ECG) data with cardiac magnetic resonance (CMR) imaging. Using generative adversarial networks (GANs), we transform readily available ECG signals into corresponding CMR images, making comprehensive cardiac assessment more accessible. Our system employs advanced deep learning models (CNN, Vision Transformer, Swin Transformer) to predict four major cardiac diseases (myocardial infarction, cardiomyopathy, atrial fibrillation, heart failure) and estimate 82 cardiac phenotypic indicators. Based on the UK Biobank dataset with over 33,000 samples, our research demonstrates that Swin Transformer outperforms other architectures in disease prediction from CMR data. This work addresses the accessibility gap in cardiac imaging by enabling detailed cardiovascular assessment from simple ECG tests.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "Generative Adversarial Networks (GANs)",
+        "Conditional GANs (cGANs)",
+        "Vision Transformer (ViT)",
+        "Swin Transformer",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rebeccaaaaas/ECG-CMR",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/enhance.png",
+      video: "",
+    },
+    {
+      title: "C Compiler",
+      href: "https://github.com/rebeccaaaaas/C-Compiler",
+      dates: "Apr 2023 - Jun 2023",
+      active: true,
+      description:
+        "This project implements a C-like language compiler that can parse and compile a subset of C language syntax into machine code using LLVM. The compiler follows the standard compilation pipeline: lexical analysis, syntax analysis, semantic analysis, IR generation, and target code generation.",
+      technologies: [
+        "Flex",
+        "Bison",
+        "LLVM-14",
+        "CMake",
+        "C++",
+        "D3.JS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rebeccaaaaas/C-Compiler",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/c.png",
       video: "",
     },
   ],
