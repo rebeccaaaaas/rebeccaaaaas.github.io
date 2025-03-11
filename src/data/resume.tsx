@@ -179,32 +179,30 @@ export const DATA = {
   // ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Intelligent RFP Matching System",
+      href: "https://github.com/rebeccaaaaas/Matching_OpenAI_Pinecone",
+      dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "This project implements an intelligent RFP (Request for Proposal) matching system that uses embeddings and similarity scoring to find relevant RFPs based on skill sets and requirements.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "OpenAI API",
+        "Vector Database (Pinecone)",
+        "NLP",
+        "Embedding Models",
+        "Similarity Algorithms",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://github.com/rebeccaaaaas/Matching_OpenAI_Pinecone",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Magic UI",
